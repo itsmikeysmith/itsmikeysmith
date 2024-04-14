@@ -1,0 +1,140 @@
+/** H T M L */
+body{
+    /**background-color: rgb(135, 135, 135); */
+    background-color: black;
+    font-family: "Press Start 2P";
+    font-weight: 400;
+    font-style: normal;
+    color: #11d711;
+}
+/** T O P - I M A G E  */
+.hImg{
+    width: 90%;
+    position: fixed;
+    left: 50%;
+    top:0%;
+    transform: translate(-50%, 0%);
+    background-color: rgba(0, 0, 0, 0.382);
+
+
+}
+/*! T O P - I M A G E  */
+/** S U B - H E A D  */
+.subHead{
+    width:100%;
+    display: flex;
+    position: fixed;
+    text-align: center;
+    justify-content: center;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -10%);
+
+}
+.subHead>button{
+    background-color: black;
+    color: #11d711;
+    font-family: "Press Start 2P";
+    margin-top: 0%;
+    font-size: smaller;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: #11d711 solid 1px;
+
+}
+.subHead>button:hover{
+    color:blueviolet;
+}
+/*! S U B - H E A D  */
+/** S I D E - B A R */
+.sidebar{
+    position: fixed;
+    top:0;
+    width: 4%;
+    border-right: #11d711 solid 3px;
+
+
+}
+.sidebar>p{
+    margin-top: 0%;
+    margin-right: 3px;
+    padding-top: 5%;
+    font-size: small;
+}
+.sidebar>p:hover{
+    filter: invert(100%);
+}
+/*! S I D E - B A R */
+h1:hover{
+    color:blueviolet;
+}
+
+.home{
+    padding-top: 12%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+.home>h1{
+    display: inline;
+}
+.home>h6{
+    margin-left: 5%;
+    padding-left: 10%;
+}
+#idPhoto{
+    height: 50px;
+    width: 50px;
+    padding: 0%;
+    margin: 0%;
+}
+#idPhoto,.home>h1{
+font-display: flexbox;
+}
+.portfolio{
+    margin-left: 10%;
+    padding-bottom:2%;
+}
+.portfolio>a{
+    text-decoration: none;
+}
+.portfolio>a>h2{
+    color: #11d711;
+    text-decoration: none;
+    margin-top: 0%;
+    text-size-adjust: biggest;
+    padding-left: 25%;
+
+}
+.portfolio>a>h3{
+    color: #11d711;
+    margin-top: 0%;
+    display: inline-flex;
+    padding-left: 10%;
+}
+.portfolio>a>h2:hover{
+    color:blueviolet;
+}
+.portfolio>a>h3:hover{
+    color:blueviolet;
+}
+.services{
+    padding-left:10% ;
+}
+.services>p{
+    font-size: smaller;
+}
+.contact{
+    padding-top: 5%;
+
+    padding-left: 10%;
+}
+.contact>a{
+    color: #11d711;
+
+}
+.contact>a:hover{
+    color:blueviolet;
+
+}
